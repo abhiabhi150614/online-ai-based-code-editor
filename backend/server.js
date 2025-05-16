@@ -8,7 +8,12 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 // Middleware
-app.use(cors());
+const corsOptions = {
+  origin: ['https://68273061b3780e74acaca3d2--animated-custard-b1a884.netlify.app', 'http://localhost:5173'],
+  methods: ['GET', 'POST'],
+  credentials: true
+};
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Initialize Gemini AI
