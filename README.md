@@ -1,4 +1,4 @@
-# Full-Stack Online IDE (https://relaxed-starship-126758.netlify.app/)
+# Full-Stack Online IDE
 
 A modern, professional, web-based IDE with multi-language support, real-time terminal, AI-powered code assistance, and a beautiful, VS Code-inspired UI.   
 
